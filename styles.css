@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+
+.post {
+  width: 380px;
+}
+
+@media (min-width: 780px) {
+  .post {
+    width: 770px;
+  }
+}
+
+.article {
+  width: 370px;
+  height: 411px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin-bottom: 30px;
+}
+
+.article:after {
+  content: "";
+  clear: both;
+}
+
+.article-1 {
+  margin-left: 0;
+}
+
+@media (min-width: 780px) {
+  .article-1 {
+    margin-left: 30px;
+  }
+}
+
+.middle-article {
+  width: 370px;
+  height: 470px;
+  text-align: center;
+}
+
+@media (min-width: 780px) {
+  .middle-article {
+    width: 770px;
+    height: 561px;
+    text-align: left;
+  }
+}
+
+.category {
+  font-family: "PT Sans";
+  font-size: 12px;
+  line-height: 16px;
+  color: #c9a96e;
+  width: 49px;
+  margin: 15px 161px 4px 160px;
+}
+
+.middle-category {
+  font-family: "PT Sans";
+  font-size: 12px;
+  line-height: 16px;
+  color: #c9a96e;
+  width: 49px;
+}
+
+@media (min-width: 780px) {
+  .middle-category {
+    margin: 25px 693px 6px 30px;
+  }
+}
+
+.heading {
+  width: 285px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+  margin: 4px 42px 10px 43px;
+}
+
+.middle-heading {
+  width: 285px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+  margin: 4px 42px 10px 43px;
+}
+
+@media (min-width: 780px) {
+  .middle-heading {
+    width: 496px;
+    margin: 6px 244px 12px 30px;
+  }
+}
+
+.date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  margin: 10px 102px 14px 102px;
+  width: 166px;
+}
+
+.middle-date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  margin: 10px 102px 14px 102px;
+  width: 166px;
+}
+
+@media (min-width: 780px) {
+  .middle-date {
+    width: 243px;
+    margin: 12px 497px 14px 30px;
+  }
+}
+
+.author {
+  margin-right: 8px;
+}
+
+.article-text {
+    width: 300px;
+    margin: 14px 126px 25px 30px;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+@media (min-width: 780px) {
+  .article-text {
+    width: 614px;
+  }
+}
+
+.by {
+  color: #b1b1b1;
+  margin-left: 8px;
+}
+
+.middle-img {
+  width: 370px;
+}
+
+@media (min-width: 780px) {
+  .middle-img {
+    width: 770px;
+  }
+}
